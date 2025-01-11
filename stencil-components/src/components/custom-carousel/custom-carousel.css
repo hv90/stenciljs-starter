@@ -1,0 +1,24 @@
+:host {
+  display: block;
+}
+
+/* .vertical {
+  max-height: 400px;
+} */
+
+.vertical::part(base) {
+  grid-template-areas: 'slides slides pagination';
+}
+
+.vertical::part(pagination) {
+  flex-direction: column;
+}
+
+.vertical::part(navigation) {
+  transform: rotate(90deg);
+  display: flex;
+}
+
+sl-carousel-item {
+  min-height: 100%;
+}
