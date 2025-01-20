@@ -1,6 +1,6 @@
-# stenciljs-starter
+# Stencil JS - starter
 
-## Aim:
+## Aim
 It allows for library generation starter based on web-components with Stencil JS library
 
 ### Steps
@@ -16,10 +16,10 @@ It allows for library generation starter based on web-components with Stencil JS
 
 #### Make use of your own library:
 1. You can copy the generated *npm package* and paste it at the root of another project
-2. Run (`npm i ./` || `yarn add ./`) + *name of the generated package* to install it
+2. Run (`npm i ./` or `yarn add ./`) + *name of the generated package* to install it
 
 ##### Vanilla js (requires bundler)
-1. In your javascript file, put at the top of the document `import custom-lib-name`
+1. In your javascript file, put at the top of the document `import 'custom-lib-name'`
 2. In your html file use your web-component tags like: 
   ```
     ...
